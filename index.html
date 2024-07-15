@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyle</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+<div class="container mt-5 hero-section">
+    <div class="row">
+        <!-- Centered Info -->
+        <div class="col-lg-6 col-md-12  d-flex align-items-center justify-content-center">
+            <div class="hero-content">
+                <h4>Award Winning</h4>
+                <h2>Digital Marketing</h2>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+                <button id="contactUsBtn" class="contact-button btn ">Contact Us</button>
+            </div>
+        </div>
+
+        <div id="modalContainer"></div>
+        <!-- Image -->
+        <div class="col-lg-6 col-md-12  d-flex align-items-center justify-content-center">
+            <div class="hero-image"></div>
+        </div>
+    </div>
+</div>
+
+<div class="new-section">
+    <div class="container">
+        <h4>WHAT WE DO</h4>
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h3>Services provide for you</h3>
+            </div>
+            <div class="col-md-6">
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slide" style="background-image: url('images/1-2.png');">
+                <div class="overlay">
+                    <div class="text">
+                        <img src="images/icon.svg">
+                        <h5>WEB DEVELOPMENT</h5>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <button class="read-more-button" onclick="window.open('https://fylehq.com', '_blank')">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/2-2.png');">
+                <div class="overlay">
+                    <div class="text">
+                        <img src="images/icon.svg" width="57px" ,
+                        height=57px">
+                        <h5>ANDROID DEVELOPMENT</h5>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                        <button class="read-more-button" onclick="window.open('https://fylehq.com', '_blank')">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/3-2.png');">
+                <div class="overlay">
+                    <div class="text">
+                        <img src="images/icon.svg">
+                        <h5>CLOUD DEVELOPMENT</h5>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <button class="read-more-button" onclick="window.open('https://fylehq.com', '_blank')">Read More</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </div>
+</div>
+
+
+<!--why choose us-->
+
+<div class="why-choose-section">
+    <div class="container">
+        <h4>Why Choose Us</h4>
+        <h3>Reasons to Choose Our Services</h3>
+        <div class="choose-cards">
+            <div class="choose-card">
+                <img src="images/1-1.svg" alt="Icon 1">
+                <h5>Clarified Vision & Target</h5>
+                <p>We have a dedicated team with years of experience.</p>
+            </div>
+            <div class="choose-card">
+                <img src="images/2-1.svg" alt="Icon 2">
+                <h5>High Performance</h5>
+                <p>We prioritize quality in every aspect of our service delivery.</p>
+            </div>
+            <div class="choose-card">
+                <img src="images/3-1.svg" alt="Icon 3">
+                <h5>Maintain Security</h5>
+                <p>Our goal is to ensure 100% customer satisfaction.</p>
+            </div>
+            <div class="choose-card">
+                <img src="images/4.svg" alt="Icon 4">
+                <h5>Better Strategy & Quality</h5>
+                <p>We provide innovative solutions tailored to your needs.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--our project section-->
+<div class="our-project text-center">
+    <div class="container">
+        <h4>Our Project</h4>
+        <h3>Why We Are Best</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="images/image.png" class="img-fluid project-image" alt="Project Image">
+                    <div class="info-overlay">
+                        <h5 class="overlay-heading"></h5>
+                        <p class="overlay-info"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-info">
+                    <div class="info-box" data-image="images/image.png">
+                        <h5>Better Strategy & Quality</h5>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of benefits.</p>
+                    </div>
+                    <div class="info-box" data-image="images/bird.jpg">
+                        <h5>Genderless Kei – Japan’s Hot</h5>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of benefits.</p>
+                    </div>
+                    <div class="info-box" data-image="images/butterfly.jpg">
+                        <h5>Genderless Kei – Japan’s Hot</h5>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of benefits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--groth section-->
+
+
+<div class="growth-section">
+    <div class="container">
+        <h4>Expert Growth</h4>
+        <h3>Our Company Growth</h3>
+        <div class="growth-cards">
+            <div class="growth-card">
+                <img src="images/heart (2).svg" alt="Card Image">
+                <p id="no">199+</p>
+                <p>Staticfied Customers</p>
+            </div>
+            <div class="growth-card">
+                <img src="images/clock (3).svg" alt="Card Image">
+                <p id="no">1591+</p>
+                <p>Days Of Operation</p>
+            </div>
+            <div class="growth-card">
+                <img src="images/Path 4402.svg" alt="Card Image">
+                <p id="no">283 +</p>
+                <p>Complete Project</p>
+            </div>
+            <div class="growth-card">
+                <img src="images/Path 4406.svg" alt="Card Image">
+                <p id="no">75+</p>
+                <p>Win Awards</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--clients feedback-->\
+<div class="feedback-section">
+    <div class="container">
+        <h4>Clients Feedback</h4>
+        <h3>people say's about us !</h3>
+        <div class="feedback">
+            <p>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original..</p>
+            <p><span class="author">Vikrant Kulkarni</span>, <span class="company">- COO, AMERIMAR ENTERPRISES, INC.</span></p>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+<!-- Client logos section -->
+
+<!-- Full Width Image Section -->
+<div class="img-container">
+    <img src="images/Group 500.png" alt="logos">
+</div>
+
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
