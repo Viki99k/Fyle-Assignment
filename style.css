@@ -1,0 +1,474 @@
+body {
+    margin: 0; /* Remove default browser margins */
+    padding: 0;
+  }
+  
+
+
+
+/* starting page */
+
+.hero-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.hero-image {
+    width: 487px;
+    height: 737px;
+    background: transparent url('images/hero.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.hero-content {
+    text-align: left;
+}
+.hero-content h4 {
+    font: normal normal 600 30px/40px 'Cormorant SC', serif;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.hero-content h2 {
+    font: normal normal bold 60px/80px 'Cormorant SC', serif;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.contact-button {
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #FF3147;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* new section slider */
+.new-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 50px;
+    margin-top: 100px;
+}
+.new-section h2, .new-section h4 {
+    font-family: 'Cormorant SC', serif;
+    text-transform: uppercase;
+}
+.new-section h4 {
+    font-size: 30px;
+    color: #FF3147;
+    margin-bottom: 20px;
+}
+.new-section h3 {
+    top: 1101px;
+left: 373px;
+width: 442px;
+height: 110px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 45px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+.new-section p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slide {
+    flex: 0 0 33.33%; /* Adjust to fit three slides at a time */
+    transition: transform 0.5s ease;
+    background-size: cover;
+    background-position: center;
+    height: 526px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 15px; /* Gap between slides */
+}
+.slide:last-child {
+    margin-right: 0; /* Remove margin for the last slide */
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+.slide:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: #fff;
+    text-align: center;
+}
+.read-more-button {
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #FF3147;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.dots {
+    text-align: left;
+    padding-top: 10px;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.dot.active {
+    background-color: #FF3147; /* Red color */
+}
+
+
+
+/* why choose section */
+
+.why-choose-section h4{
+text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.why-choose-section {
+    margin-top: 100px; /* Adjust margin as needed */
+    padding: 50px 0;
+    background-color: #FAFAFA; /* Light gray background */
+    text-align: center; /* Center align content */
+}
+
+.why-choose-section h4,
+.why-choose-section h3 {
+    margin-bottom: 30px;
+}
+
+.choose-cards {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Adjust spacing between cards */
+}
+
+.choose-card {
+    width: 400px; /* Adjust card width as needed */
+    padding: 20px;
+    text-align: center;
+    background-color: #FFFFFF; /* White background for cards */
+    border-radius: 8px; /* Rounded corners for cards */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.choose-card img {
+  
+left: 0px;
+width: 72px;
+height: 72px;
+opacity: 1;
+
+}
+
+.choose-card h5 {
+    margin-top: 10px;;
+    text-align: center;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+.choose-card p {
+    text-align: center;
+    font: normal normal normal 16px/26px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;}
+
+
+
+/* our project */
+.our-project {
+    margin-top: 100px;
+    text-align: center;
+}
+.our-project h4 {
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;    
+}
+
+
+
+
+/* Style for project heading */
+.our-project h3 {
+    margin-bottom: 30px; /* Adjust margin as needed */
+    text-align: center;
+font: normal normal bold 45px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+    
+}
+
+/* Style for image and info boxes */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.image-container img {
+    width: 770px;
+    height: 567px;
+}
+
+.project-info {
+    margin-top: 20px;
+}
+
+.info-box {
+    height: 150px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.info-box:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+}
+
+.info-box.active {
+    background-color: #FF3147; /* Red background for active box */
+    color: #fff; /* White text on active box */
+}
+
+.info-box h5 {
+    margin-bottom: 5px; /* Adjust margin as needed */
+}
+
+.info-box p {
+    margin-bottom: 0; /* Remove default margin */
+}
+
+.info-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black overlay */
+    color: #fff;
+    padding: 10px;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Hidden by default */
+}
+
+.info-overlay.active {
+    opacity: 1; /* Show overlay on active state */
+}
+
+/* 
+growth section */
+/* Styles for growth-section box */
+.growth-section-box {
+    position: absolute;
+    top: 3674px;
+    left: 375px;
+    width: 270px;
+    height: 233px;
+    background: #FFFFFF;
+    box-shadow: 3px 6px 20px #672C2C1F;
+    opacity: 1;
+    z-index: 100; /* Ensure it's above other content if needed */
+}
+
+/* Styles for growth-section content */
+.growth-section {
+    margin-top: 100px; /* Adjust margin as needed */
+    padding: 50px 0;
+    background-color: #FAFAFA; /* Light gray background */
+    text-align: center; /* Center align content */
+}
+
+.growth-section h4,
+.growth-section h3 {
+    margin-bottom: 30px;
+}
+
+.growth-cards {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Adjust spacing between cards */
+}
+
+.growth-card {
+    width: 200px; /* Adjust card width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+}
+
+.growth-card img {
+    width: 50px; /* Adjust image size as needed */
+    height: 50px;
+    margin-bottom: 10px;
+    pointer:cursor;
+}
+
+/* Hover effect */
+.growth-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Box shadow on hover */
+}
+
+
+#no {
+    margin-top: 10px;;
+ text-align: center;
+ font: normal normal 300 60px/65px Poppins;
+ letter-spacing: 0px;
+ color: #000000;
+ text-transform: uppercase;
+ opacity: 1;
+ }
+ .growth-section h4 {
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+
+
+
+    /* clietns feedback */
+    /* Styles for feedback-section */
+.feedback-section {
+    margin-top: 50px; /* Adjust margin as needed */
+    padding: 50px 0;
+    background-color: #FAFAFA; /* Light gray background */
+    text-align: center; /* Center align content */
+}
+
+.feedback-section h4,
+.feedback-section h3 {
+    margin-bottom: 30px;
+}
+
+.feedback-section h4{
+text-align: center;
+font: normal normal 600 24px/26px Cormorant SC;
+letter-spacing: 0px;
+color: #FF3147;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.feedback-section h3{
+/* UI Properties */
+text-align: center;
+font: normal normal bold 45px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.feedback {
+    margin-bottom: 20px;
+}
+
+.feedback p {
+   
+
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.author {
+    top: 4378px;
+left: 554px;
+width: 159px;
+height: 28px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 20px/34px Poppins;
+letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+}
+
+.company {
+    top: 4378px;
+left: 718px;
+width: 338px;
+height: 28px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 20px/34px Poppins;
+letter-spacing: 0px;
+color: #808080;
+opacity: 1;
+}
+
+
+.img-container{
+    background-color: #FF3147;
+    width: 100%;
+    height:200px;
+}
+
+.img-container img{
+    width: 80%;
+    height: 40%;
+    margin-left: 109px;
+    margin-top: 70px;
+}
+
+
+
